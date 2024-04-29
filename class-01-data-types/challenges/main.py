@@ -1,6 +1,6 @@
 # Primitive Types
 
-milk = "leite desnatado"
+milk = "Leite Desnatado"
 volume = 2.5
 
 print(type(milk))
@@ -12,26 +12,26 @@ preparation2 = milk + "10"
 print(preparation1)
 print(preparation2)
 
-life_cat = str (volume + 5)
+life_cat = str(volume + 5)
 
-print("o gato bebe" + milk)
-print("E tem" + life_cat + "vidas")
+print("O gato bebe " + milk)
+print("E tem " + life_cat + " vidas")
 
-print(F"o gato bebe {milk} e tem {life_cat} vidas")
-print(F"o gato bebe {milk} e tem {life_cat} vidas")
+print("O gato bebe " + milk + " e tem " + life_cat + " vidas")
+print(f"O gato bebe {milk} e tem {life_cat} vidas")
 
-name = "Davi"
+name = "Emanuel"
 age = 31
-is_admin = False #boolean True of False
+is_admin = False #boolean True or False
 
 print(is_admin)
 print(type(is_admin))
 
-# Structural Types (Collection)
+# Structural Types (Collections)
 
-animes = ["Dragon Ball", "Naruto", "Cavalheiros do Zodiaco", "Death Note"]
-          # => 0                1              2                      3
-          # <= -4              -3             -2                     -1
+animes = ["Dragon Ball", "Naruto", "Jojo", "Death Note"]
+            # =>  0           1         2          3 
+            # <= -4          -3        -2         -1
 
 print(animes)
 print(type(animes))
@@ -47,25 +47,25 @@ print(list[-1])
 print(list[-1][1])
 
 list[2] = False
-list[-1][0] = "0"
+list[-1][0] = "D"
 print(list)
 print(len(list)) # length
 
-# Tuple
+# tuple
 tuple = ("A", 123, True)
 print(type(tuple))
 print(tuple[1])
 
-tuple[1] = 798 # error: tuple is immutable 
+# tuple[1] = 798 # error: tuple is immutable
 
 print(tuple)
 
 # dict
 
 dict = {
-    "name": "Jonatan",
-    "age": 19,
-    "is_admin": True
+  "name": "Emanuel",
+  "age": 31,
+  "is_admin": True
 }
 
 print(dict)
